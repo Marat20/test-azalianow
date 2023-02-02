@@ -1,0 +1,19 @@
+.product {
+    border: 1px solid black;
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+    .product__hit {
+        background: no-repeat url('../../media/svg/hit.svg');
+        position: relative;
+        top: 31px;
+        left: 226px;
+    }
+
+    .product__image {
+        align-self: center;
+    }
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import '../components/product/product.style.scss';
+
+.container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 26px 70px;
+}
