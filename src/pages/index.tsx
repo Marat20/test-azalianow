@@ -1,10 +1,11 @@
-import { Products } from '@/components/product/Products';
+import { Advertising } from '@/components/Advertising';
+import { Products } from '@/components/Products';
 
 export default function Home() {
   return (
-    <section className='container'>
-      <section>БАННЕР</section>
+    <div className='container'>
+      <Advertising />
       <Products />
-    </section>
+    </div>
   );
 }

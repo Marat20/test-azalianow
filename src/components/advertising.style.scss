@@ -1,0 +1,55 @@
+.advertising {
+  display: flex;
+  flex-direction: column;
+
+  .advertising__choose {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    opacity: 0.5;
+  }
+
+  .advertising__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+
+  .advertising__top {
+    display: flex;
+    margin: 30px 0 10px;
+
+    .advertising__top_discount {
+      padding: 20px 43px 27px 20px;
+      background-color: #636b7f;
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 24px;
+
+      p .advertising__discount-choose {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+  }
+
+  .advertising__bottom {
+    display: flex;
+
+    .advertising__bottom_discount {
+      background-color: #f5f5f7;
+      padding: 10px 0 0 20px;
+
+      p .advertising__discount-choose {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+  }
+}
